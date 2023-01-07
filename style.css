@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: url(img/Bitmap.jpg);
+    color: #fff;
+}
+
+
+/* HEADER qism 0 */
+
+
+header{
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+
+
+.logo{
+    margin: 15px;
+}
+
+
+hr{
+    width: 450px;
+}
+
+
+ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+    list-style: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.04);
+    padding: 24px;
+    margin: 10px;
+}
+
+
+li a{
+    color: #fff;
+    text-decoration: none;
+} 
+
+
+li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid white;
+}
+
+
+/* Asosiy qism 1 "card" */
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* Asosiy qism 2 "TEXT" */
+
+
+.TEXT{
+    height: auto;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+
+.text{
+    margin-top: 180px;
+    margin-left: 30px;
+    width: 390px;
+    height: 322px;
+    /* border: 1px solid white; */
+}
+
+
+.text2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.space{
+    font-family: Bellefair;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 171.9px;
+}
+
+
+/* Asosiy qism 3 "TEXT2" */
+
+
+.TEXT2{
+    height: auto;
+    width: 50%;
+}
+
+
+.explore{
+    margin-top: 190px;
+    margin-left: 345px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+.explor{
+    margin-top: 110px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
